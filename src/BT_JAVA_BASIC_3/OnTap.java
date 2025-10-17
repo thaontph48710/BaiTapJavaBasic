@@ -1,6 +1,9 @@
 package BT_JAVA_BASIC_3;
 
 public class OnTap {
+    static int a = 12;
+    static int b = 24;
+    static int c = 34;
 
     public static void hamThamSoN(int n){
         int number = 100;
@@ -19,11 +22,7 @@ public class OnTap {
 
     }
 
-
     public static void main(String[] args) {
-        int a = 12;
-        int b = 24;
-        int c = 34;
 
         System.out.println("(a>b):" + (a>b));
         System.out.println("(a<b):" + (a<b));
